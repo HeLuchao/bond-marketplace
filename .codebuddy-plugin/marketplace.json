@@ -1,0 +1,15 @@
+{
+  "name": "HeLuchao 的插件市场",
+  "description": "个人开发的实用工具插件集合",
+  "plugins": [
+    {
+      "name": "bond-monitor",
+      "source": "plugins/bond-monitor",
+      "description": "可转债申购监控插件 - 自动查询今日/明日可申购的新债信息，并通过 Server酱 推送到个人微信",
+      "version": "1.0.0",
+      "author": "HeLuchao",
+      "keywords": ["finance", "investment", "bond", "convertible-bond", "notification", "wechat", "serverchan"],
+      "homepage": "https://github.com/HeLuchao/bond-monitor"
+    }
+  ]
+}

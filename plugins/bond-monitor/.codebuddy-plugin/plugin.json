@@ -1,0 +1,16 @@
+{
+  "name": "bond-monitor",
+  "version": "1.0.0",
+  "description": "可转债申购监控插件 - 自动查询今日/明日可申购的新债信息，并通过 Server酱 推送到个人微信",
+  "author": {
+    "name": "HeLuchao",
+    "email": "heluchao@example.com"
+  },
+  "homepage": "https://github.com/HeLuchao/bond-monitor",
+  "repository": "https://github.com/HeLuchao/bond-monitor",
+  "keywords": ["finance", "investment", "bond", "convertible-bond", "notification", "wechat", "serverchan"],
+  "category": "金融理财",
+  "commands": ["./commands/bond-query.md"],
+  "skills": ["./skills/bond-monitor"],
+  "license": "MIT"
+}
