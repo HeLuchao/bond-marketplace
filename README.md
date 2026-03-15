@@ -124,7 +124,7 @@ bond-marketplace/
 
 我已经为你创建了一个符合规范的插件市场：
 
-**GitHub 仓库**：https://github.com/HeLuchao/bond-marketplace（需要创建）
+**GitHub 仓库**：https://github.com/HeLuchao/bond-marketplace
 
 **市场地址**：`https://github.com/HeLuchao/bond-marketplace`
 
@@ -139,7 +139,7 @@ codebuddy plugin marketplace add https://github.com/HeLuchao/bond-marketplace -n
 ## 📞 联系方式
 
 - **开发者**：HeLuchao
-- **Email**：heluchao@example.com
+- **Email**：heluchao1994@gmail.com
 - **GitHub**：https://github.com/HeLuchao
 
 ---

@@ -138,8 +138,8 @@ python scripts/query_bond.py --sendkey YOUR_SENDKEY --dry-run
 # 编辑 crontab
 crontab -e
 
-# 添加以下内容（每天早上 9:00 执行）
-0 9 * * * cd /path/to/bond-monitor && python scripts/query_bond.py --sendkey YOUR_SENDKEY --daily-status
+# 添加以下内容（每天早上 8:00 执行）
+0 8 * * * cd /path/to/bond-monitor && python scripts/query_bond.py --sendkey YOUR_SENDKEY --daily-status
 ```
 
 #### 2. 环境变量配置
@@ -176,7 +176,7 @@ python scripts/query_bond.py --sendkey YOUR_SENDKEY >> bond_monitor.log 2>&1
 | 参数 | 说明 | 默认值 | 示例 |
 |------|------|--------|------|
 | `send_daily_status` | 是否发送每日状态通知 | `false` | `true` |
-| `push_time` | 推送时间（24小时制） | `09:00` | `08:30` |
+| `push_time` | 推送时间（24小时制，北京时间） | `08:00` | `08:30` |
 
 ### Server酱配置
 
@@ -344,7 +344,7 @@ python scripts/query_bond.py --sendkey YOUR_SENDKEY --dry-run
 
 如有问题或建议，请通过以下方式联系：
 
-- 📧 Email: heluchao@example.com
+- 📧 Email: heluchao1994@gmail.com
 - 💬 GitHub Issues: [提交问题](https://github.com/HeLuchao/bond-monitor/issues)
 - 📖 项目文档: [查看文档](https://github.com/HeLuchao/bond-monitor/wiki)
 
